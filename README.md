@@ -7,7 +7,7 @@ Note: this paper is under review for Applied Energy.
 
 ## Cite
 
-If you make use of this code in your own work, please cite our arXiv paper:
+If you make use of this code, please cite our arXiv paper:
 
 ```
 @article{dumas2021deep,
