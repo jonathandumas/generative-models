@@ -3,6 +3,7 @@
 import os
 import json
 import numpy as np
+import torch
 
 from GEFcom2014.models import scale_data_multi
 from GEFcom2014.models.GAN import Discriminator_wassertein, Generator_linear, plot_GAN_loss, fit_gan_wasserstein, build_gan_scenarios
