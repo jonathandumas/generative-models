@@ -29,8 +29,8 @@ Note: the reference will be changed if the paper is accepted for publication in 
 # Dependencies
 
 To implement the normalizing flows two libraries are required:
-* https://github.com/AWehenkel/Normalizing-Flows
-* Unconstrained Monotonic Neural Networks: https://github.com/AWehenkel/UMNN
+* https://github.com/AWehenkel/Normalizing-Flows -> to access the repositories lib and model
+* https://github.com/AWehenkel/UMNN -> to implement the Unconstrained Monotonic Neural Networks normalizing flows
 
 If you make use of the Unconstrained Monotonic Neural Networks code, please cite the paper:
 
