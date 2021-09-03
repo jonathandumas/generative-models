@@ -145,3 +145,5 @@ pos_imb = q_pos * dad_price  # euros /MWh
 neg_imb = q_neg * dad_price  # euros /MWh
 ```
 are set to the default values used in the paper.
+
+Warning: the Gurobi Python API must be activated to use this file.
