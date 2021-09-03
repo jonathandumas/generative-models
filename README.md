@@ -27,8 +27,7 @@ Note: the reference will be changed if the paper is accepted for publication in 
 ![numerical-experiments](https://github.com/jonathandumas/generative-models/blob/918ba080d82b04f541e2196a803165708f64fb73/figures/numerical-experiments-methodology.png)
 
 # Dependencies
-
-To implement the normalizing flows two libraries are required:
+Two libraries are required to implement the normalizing flows models used in the study:
 * https://github.com/AWehenkel/Normalizing-Flows -> to access the repositories lib and model
 * https://github.com/AWehenkel/UMNN -> to implement the Unconstrained Monotonic Neural Networks normalizing flows
 
