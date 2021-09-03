@@ -3,6 +3,7 @@
 import os
 import json
 import numpy as np
+import torch
 
 from GEFcom2014 import wind_data, load_data, pv_data
 from GEFcom2014.forecast_quality import quantiles_and_evaluation
