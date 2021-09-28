@@ -1,20 +1,25 @@
 # A deep generative model for probabilistic energy forecasting in power systems: normalizing flows
-Official implementation of generative models to compute scenario of renewable generation and consumption on the GEFcom2014 open dataset presented in the paper:
-> Dumas, Jonathan, et al. "A deep generative model for probabilistic energy forecasting in power systems: normalizing flows." arXiv preprint arXiv:2106.09370 (2021).
-> [[arxiv]](https://arxiv.org/abs/2106.09370)
-
-Note: this paper is under review for Applied Energy.
+Official implementation of generative models to compute scenario of renewable generation and consumption on the GEFcom2014 open dataset presented in the paper: A deep generative model for probabilistic energy forecasting in power systems: normalizing flows.
+- [Applied Energy link until November 16, 2021](https://authors.elsevier.com/a/1dpj015eif0fZ5)
+- [arXiv link](https://arxiv.org/abs/2106.09370)
 
 ## Cite
 
-If you make use of this code, please cite our arXiv paper:
+If you make use of this code, please cite our paper:
 
 ```
-@article{dumas2021deep,
-  title={A deep generative model for probabilistic energy forecasting in power systems: normalizing flows},
-  author={Dumas, Jonathan and Lanaspeze, Antoine Wehenkel Damien and Corn{\'e}lusse, Bertrand and Sutera, Antonio},
-  journal={arXiv preprint arXiv:2106.09370},
-  year={2021}
+@article{DUMAS2022117871,
+title = {A deep generative model for probabilistic energy forecasting in power systems: normalizing flows},
+journal = {Applied Energy},
+volume = {305},
+pages = {117871},
+year = {2022},
+issn = {0306-2619},
+doi = {https://doi.org/10.1016/j.apenergy.2021.117871},
+url = {https://www.sciencedirect.com/science/article/pii/S0306261921011909},
+author = {Jonathan Dumas and Antoine Wehenkel and Damien Lanaspeze and Bertrand Cornélusse and Antonio Sutera},
+keywords = {Deep learning, Normalizing flows, Energy forecasting, Time series, Generative adversarial networks, Variational autoencoders},
+abstract = {Greater direct electrification of end-use sectors with a higher share of renewables is one of the pillars to power a carbon-neutral society by 2050. However, in contrast to conventional power plants, renewable energy is subject to uncertainty raising challenges for their interaction with power systems. Scenario-based probabilistic forecasting models have become a vital tool to equip decision-makers. This paper presents to the power systems forecasting practitioners a recent deep learning technique, the normalizing flows, to produce accurate scenario-based probabilistic forecasts that are crucial to face the new challenges in power systems applications. The strength of this technique is to directly learn the stochastic multivariate distribution of the underlying process by maximizing the likelihood. Through comprehensive empirical evaluations using the open data of the Global Energy Forecasting Competition 2014, we demonstrate that this methodology is competitive with other state-of-the-art deep learning generative models: generative adversarial networks and variational autoencoders. The models producing weather-based wind, solar power, and load scenarios are properly compared in terms of forecast value by considering the case study of an energy retailer and quality using several complementary metrics. The numerical experiments are simple and easily reproducible. Thus, we hope it will encourage other forecasting practitioners to test and use normalizing flows in power system applications such as bidding on electricity markets, scheduling power systems with high renewable energy sources penetration, energy management of virtual power plan or microgrids, and unit commitment.}
 }
 ```
 
